@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Support from './components/Support';
+import AllInOne from './components/AllInOne';
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
     <Hero />   
     <About />
     <Support />
+    <AllInOne />
     </>
   );
 }
